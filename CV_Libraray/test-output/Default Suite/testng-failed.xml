@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="CV_Libraray(failed)">
+    <classes>
+      <class name="com.cvlibrary.demo.testsuite.JobSearchTest">
+        <methods>
+          <include name="sixthDataSet"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.cvlibrary.demo.testsuite.JobSearchTest -->
+    </classes>
+  </test> <!-- CV_Libraray(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

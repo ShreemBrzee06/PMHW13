@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on Register LinkBy.linkText: Register<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter First NameBy.id: customer.firstName]]>
+    </line>
+    <line>
+      <![CDATA[Enter Last NameBy.id: customer.lastName]]>
+    </line>
+    <line>
+      <![CDATA[Enter Address Street NameTest Street]]>
+    </line>
+    <line>
+      <![CDATA[Enter City Name: Test City]]>
+    </line>
+    <line>
+      <![CDATA[Enter State Name: Test State]]>
+    </line>
+    <line>
+      <![CDATA[Enter Zip Code: By.id: customer.address.zipCode]]>
+    </line>
+    <line>
+      <![CDATA[Enter Phone Number: 1234562426]]>
+    </line>
+    <line>
+      <![CDATA[Enter SSN no: 1524714311]]>
+    </line>
+    <line>
+      <![CDATA[Enter User Nameganesha1@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password: test12345]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password: test12345]]>
+    </line>
+    <line>
+      <![CDATA[Successful registration pageBy.xpath: //p[@class='smallText']]]>
+    </line>
+    <line>
+      <![CDATA[get Register Page MsgBy.cssSelector: h1.title]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="16682" started-at="2023-06-27T22:32:42 BST" finished-at="2023-06-27T22:32:59 BST">
+    <groups>
+    </groups>
+    <test name="ParabenMaven" duration-ms="16682" started-at="2023-06-27T22:32:42 BST" finished-at="2023-06-27T22:32:59 BST">
+      <class name="com.paraben.testsuite.RegisterPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.paraben.testsuite.RegisterPage@711f39f9]" name="setUp" is-config="true" duration-ms="8458" started-at="2023-06-27T22:32:43 BST" finished-at="2023-06-27T22:32:51 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userShouldRegisterAccountSuccessfully()[pri:0, instance:com.paraben.testsuite.RegisterPage@711f39f9]" name="userShouldRegisterAccountSuccessfully" duration-ms="2191" started-at="2023-06-27T22:32:51 BST" finished-at="2023-06-27T22:32:53 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Register LinkBy.linkText: Register<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter First NameBy.id: customer.firstName]]>
+            </line>
+            <line>
+              <![CDATA[Enter Last NameBy.id: customer.lastName]]>
+            </line>
+            <line>
+              <![CDATA[Enter Address Street NameTest Street]]>
+            </line>
+            <line>
+              <![CDATA[Enter City Name: Test City]]>
+            </line>
+            <line>
+              <![CDATA[Enter State Name: Test State]]>
+            </line>
+            <line>
+              <![CDATA[Enter Zip Code: By.id: customer.address.zipCode]]>
+            </line>
+            <line>
+              <![CDATA[Enter Phone Number: 1234562426]]>
+            </line>
+            <line>
+              <![CDATA[Enter SSN no: 1524714311]]>
+            </line>
+            <line>
+              <![CDATA[Enter User Nameganesha1@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password: test12345]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password: test12345]]>
+            </line>
+            <line>
+              <![CDATA[Successful registration pageBy.xpath: //p[@class='smallText']]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldRegisterAccountSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paraben.testsuite.RegisterPage@711f39f9]" name="tearDown" is-config="true" duration-ms="709" started-at="2023-06-27T22:32:53 BST" finished-at="2023-06-27T22:32:54 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.paraben.testsuite.RegisterPage@711f39f9]" name="setUp" is-config="true" duration-ms="4174" started-at="2023-06-27T22:32:54 BST" finished-at="2023-06-27T22:32:58 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyThatSigningUpPageDisplay()[pri:0, instance:com.paraben.testsuite.RegisterPage@711f39f9]" name="verifyThatSigningUpPageDisplay" duration-ms="411" started-at="2023-06-27T22:32:58 BST" finished-at="2023-06-27T22:32:58 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[get Register Page MsgBy.cssSelector: h1.title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatSigningUpPageDisplay -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paraben.testsuite.RegisterPage@711f39f9]" name="tearDown" is-config="true" duration-ms="677" started-at="2023-06-27T22:32:58 BST" finished-at="2023-06-27T22:32:59 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paraben.testsuite.RegisterPage -->
+    </test> <!-- ParabenMaven -->
+  </suite> <!-- Default Suite -->
+</testng-results>
